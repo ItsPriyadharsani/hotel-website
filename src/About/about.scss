@@ -1,0 +1,44 @@
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+
+  .image {
+    flex: 1 1 50%; // Two images per row on larger screens
+    padding: 5px;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+
+.content {
+  padding: 20px;
+  h2 {
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+.abt{
+  color: #FEA116;
+  font-family: 'Pacifico', cursive;
+}
+.abt-head{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+// Responsive adjustments
+@media (max-width: 767px) {
+  .image-grid .image {
+    flex: 1 1 50%; // Two images per row on small screens
+  }
+  .content {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,135 @@
+
+
+.Light {
+  color: white !important;
+
+}
+.text-warning{
+  font-family: 'Nunito', sans-serif !important;
+  font-weight: 700 !important;
+}
+.nav-link {
+  color: white !important;
+  margin-left: 18px;
+  text-transform: uppercase;
+
+  display: flex;
+  justify-content: center;
+  font-family: 'Nunito', sans-serif !important;
+  font-weight: 700 !important;
+}
+
+.nav-link:hover {
+  color: rgb(255, 192, 3) !important;
+}
+
+.icon-large {
+  font-size: 3.1rem;
+ margin: 20px 10px 0px 0px;
+  color: #FEA116;
+position: relative;
+right:30px;
+ 
+  
+}
+.icon-larges {
+  font-size: 3rem;
+ 
+  color: #FEA116;
+  
+}
+/* src/App.css or your appropriate CSS file */
+.carousel-image {
+  height: 670px;
+  /* Adjust the height as needed */
+  object-fit: cover;
+  /* Ensure the image covers the area without distortion */
+}
+
+.carousel-caption .head  {
+  font-size: 4rem;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  text-align: left;
+  margin-bottom: 246px;
+  margin-left: -120px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+.para{
+position: relative;
+bottom: 221px;
+  font-size:medium;
+  font-weight: 400;
+  text-align: left;
+  margin-left: -120px;
+  width: 50%;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+}
+.buttons{
+
+  text-transform: uppercase;
+  position: relative;
+  top: 30px;
+  right: 0px;
+  width: 204px;
+  background-color: #FEA116;
+  height: 55px;
+  font-family: 'Nunito', sans-serif !important;
+  font-weight: 700 !important;
+}
+.container {
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start; 
+  flex-wrap: wrap;
+  gap: 15px; 
+  padding: 20px;
+}
+
+.box {
+  margin: 20px; 
+  width: 268px;
+  height: 250px;
+  background-color: white;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 8px rgba(0, 0, 0, 0.25), 
+  inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; 
+  overflow: hidden; /* Ensure content stays within the box */
+ 
+ 
+}
+.box p {
+  margin: 0px 22px 10px 22px;
+  text-align:justify; 
+  white-space: normal;
+  transition: color 0.3s ease;
+  font-family: 'Nunito', sans-serif !important;
+  font-weight: 500;
+  color:rgb(99, 90, 90);
+  
+}
+.box:hover{
+  background-color:#FEA116;
+}
+.box .icon-large {
+  color:#FEA116 ;  /* Initial icon color */
+  transition: color 0.3s ease;  /* Smooth transition for color */
+}
+
+.box:hover .icon-large {
+  color: #fff;  /* Icon color on hover */
+}
+.box:hover p {
+  color: #fff; /* Text color on hover */
+}
+.headings{
+  font-size: larger;
+  font-family: 'Nunito', sans-serif !important;
+  font-weight: 700 !important;
+  margin-top: 5px !important;
+ 
+}
