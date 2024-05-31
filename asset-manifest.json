@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/hotel-react/static/css/main.e41636cd.css",
+    "main.js": "/hotel-react/static/js/main.83d2e25b.js",
+    "static/js/453.31db3b71.chunk.js": "/hotel-react/static/js/453.31db3b71.chunk.js",
+    "static/media/food1.jpg": "/hotel-react/static/media/food1.f0c3b6ff8210df610963.jpg",
+    "static/media/food8.webp": "/hotel-react/static/media/food8.d2213d805b16f8da7c51.webp",
+    "static/media/about-4.jpg": "/hotel-react/static/media/about-4.e5ebcd541d386b69ad28.jpg",
+    "static/media/about-1.jpg": "/hotel-react/static/media/about-1.9fe6c75c4791fa3532da.jpg",
+    "static/media/about-2.jpg": "/hotel-react/static/media/about-2.0c0ef7e55155ddcfa5bd.jpg",
+    "static/media/about-3.jpg": "/hotel-react/static/media/about-3.174ecd5e7e375eca4e46.jpg",
+    "index.html": "/hotel-react/index.html",
+    "main.e41636cd.css.map": "/hotel-react/static/css/main.e41636cd.css.map",
+    "main.83d2e25b.js.map": "/hotel-react/static/js/main.83d2e25b.js.map",
+    "453.31db3b71.chunk.js.map": "/hotel-react/static/js/453.31db3b71.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e41636cd.css",
+    "static/js/main.83d2e25b.js"
+  ]
+}
